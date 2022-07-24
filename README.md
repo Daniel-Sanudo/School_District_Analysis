@@ -23,6 +23,7 @@ The 9th grade Students from Thomas High School were involved in academic dishone
 ## Overview of Project
 
 ![Previous_Results](/Images/Previous_THS_Final_Data.png)
+
 *Previous Analysis Results*
 
 Previously, this was the resulting information for Thomas High School analysis, which provided the average scores, passing rate, spending ranges and school student size. 
@@ -32,6 +33,7 @@ These calculation were made considering the 9th grade students whose grades are 
 After removing those grades from our dataset, and reassessing the dataset, the following results are obtained:
 
 ![Reassessed_Results](/Images/New_THS_Final_Data.png)
+
 *New Analysis Results*
 
 The Per Student Budget and Total Students are unnafected since, even if their grades were altered, we need to count the 9th grade students to have the real values for the Per Student Budget and the School size; these students however were not included in the Scores and % Passing calculations.
@@ -53,9 +55,11 @@ Thomas High School is the second best performing school regarding the overall pa
 The two datasets that were used for this project, below are the images that summarize the data contained in each:
 
 ![School_Data](/Images/Total_School_Data.png)
+
 *School Dataset*
 
 ![Student_Data](/Images/Total_Student_Data.png)
+
 *Student Dataset*
 
 The Student Dataset that all Thomas High School 9th grade students had their grades replaced by NaNs; by using the following code:
@@ -67,24 +71,29 @@ The Student Dataset that all Thomas High School 9th grade students had their gra
 All the math and reading scores for the student data dataframe for 9th grade students from Thomas High School were changed into NaNs as shown in the next image:
 
 ![9th_Grade_NaNs](/Images/9th_Graders_NaN_Scores.png)
+
 *Updated student scores*
 
 The following ranges were used to calculate the budget per student:
 
 ![Spending_Ranges](/Images/Budget_Bins.png)
+
 *Spending Ranges*
 
 The following groups were used to group the schools according to their student count:
 
 ![Student_Count_Bins](/Images/Student_Count_Bins.png)
+
 *Student Count Groups*
 
 The calculation for Thomas High School passing percentages is done by substracting the population of their 9th grade students from their total student count. Below are included the tables that summarize the effect that considering the 9th grade students in the count used to calculated their passing percentage has:
 
 ![Thomas_High_School_with_NaNs](/Images/New_THS_Summary_With_NaNs.png)
+
 *Thomas High School calculations without substracting the 9th graders from their total student count for calculation purposes*
 
 ![Thomas_High_School_without_NaNs](/Images/New_THS_Summary_Without_NaNs.png)
+
 *Thomas High School calculations after substracting the 9th graders from their total student count for calculation purposes*
 
 This analysis uses the passing percentages that are calculated by substracting the 9th grade student count.
@@ -98,9 +107,11 @@ Thomas High School's 9th grade students amount to a total of 461 students; the t
 * District Summary Comparison
 
 ![New_District_Summary](/Images/New_District_Summary.png)
+
 *Reassessment District Summary* 
 
 ![Previous_District_Summary](/Images/Previous_District_Summary.png)
+
 *Previous District Summary*
 
 After recalculating the average scores and their appropriate passing rates for the whole district, the effect that substracting the Thomas High School students is neglibile since they're only 461 out of the 39170 total students. 
@@ -110,9 +121,11 @@ The Average Math score dropped by 0.1, the Reading Score was not significantly a
 * Math Scores per Grade Comparison
 
 ![New_Math_Scores_Per_Grade](/Images/New_Math_Scores.png)
+
 *Reassessment Math Scores per Grade Summary*
 
 ![Previous_Math_Scores_Per_Grade](/Images/Previous_Math_Scores.png)
+
 *Previous Math Scores per Grade Summary*
 
 Since this calculation is done for each school and each grade, only the 9th graders score from Thomas High School were affected. Thomas High School previously had a score of 83.6, which meant it was positioned in the top 3 schools regarding math scores for 9th graders.
@@ -120,9 +133,11 @@ Since this calculation is done for each school and each grade, only the 9th grad
 * Reading Scores per Grade Comparison
 
 ![New_Reading_Scores_Per_Grade](/Images/New_Reading_Scores.png)
+
 *Reassessment Math Scores per Grade Summary*
 
 ![Previous_Reading_Scores_Per_Grade](/Images/Previous_Reading_Scores.png)
+
 *Previous Math Scores per Grade Summary*
 
 Since this calculation is done for each school and each grade, only the 9th graders score from Thomas High School were affected. Thomas High School previosuly had a score of 83.7, which was the 5th highest reading score among the 15 schools in this district.
@@ -130,9 +145,11 @@ Since this calculation is done for each school and each grade, only the 9th grad
 * School Type Comparison
 
 ![New_School_Type_Summary](/Images/New_School_Type_Summary.png)
+
 *Reassessed School Type Summary*
 
 ![Previous_School_Type_Summary](/Images/Previous_School_Type_Summary.png)
+
 *Previous School Type Summary*
 
 The unformatted tables were presented since the difference when rounding the numbers is less noticeable.
@@ -142,9 +159,11 @@ Thomas High School is a Charter type school, hence only the Charter row was affe
 * School Student Size Comparison
 
 ![New_Student_Size_Comparison](/Images/New_Size_Summary.png)
+
 *Reassessed performance by school student size*
 
 ![Previous_Student_Size_Comparison](/Images/Previous_Size_Summary.png)
+
 *Previous performance by school student size*
 
 The unformatted tables were presented since the difference when rounding the numbers is less noticeable.
@@ -156,9 +175,11 @@ The average math score decreased by 0.01 and the average reading score increased
 * Spending per Student Comparison
 
 ![New_Spending_per_Student](/Images/New_Spending_Summary.png)
+
 *Reassessed performance by spending per student
 
 ![Previous_Spending_per_Student](/Images/Previous_Spending_Summary.png)
+
 *Previous performance by spending per student
 
 The unformatted tables were presented since the difference when rounding the numbers is less noticeable.
@@ -170,9 +191,11 @@ The new calculations by leaving out the Thomas High School 9th grade students re
 * Top School Results Comparison
 
 ![New_Top_Schools](/Images/New_Top_Schools.png)
+
 *New school ranking per overall passing rate*
 
 ![Previous_Top_Schools](/Images/Previous_Top_Schools.png)
+
 *Previous school ranking per overall passing rate*
 
 Both the current and previous reassessment show that Thomas High School holds the second place in overall passing rate; before the board reported that Thomas High School had modified their student's grades, they had an overall passing percentage of 90.94, however after removing the altered grades, their overall passing grade is now 90.63. Leaving them much closer to fall to either third or fourth place as in the overall passing percentage ranking
